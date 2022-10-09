@@ -13,9 +13,8 @@ int EnterNumber()
     return number;
 }
 int num = EnterNumber();
-int num1 = Math.Abs(num);
-int result = num1;
-if (num1 < 100)
+int result = Math.Abs(num);
+if (result < 100)
 {
     Console.WriteLine($"{num} ->  третьей цифры нет");
 }
